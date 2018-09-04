@@ -1,0 +1,26 @@
+{
+  "name": "ky-cli",
+  "version": "0.1.0",
+  "description": "keep-yukap org cli tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keep-yukap/ky-cli.git"
+  },
+  "keywords": [
+    "ky-cli"
+  ],
+  "author": "yukap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keep-yukap/ky-cli/issues"
+  },
+  "homepage": "https://github.com/keep-yukap/ky-cli#readme",
+  "dependencies": {
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
