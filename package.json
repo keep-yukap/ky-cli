@@ -4,8 +4,7 @@
   "description": "keep-yukap org cli tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,10 @@
   },
   "homepage": "https://github.com/keep-yukap/ky-cli#readme",
   "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
   },
