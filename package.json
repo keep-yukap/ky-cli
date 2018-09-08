@@ -1,6 +1,6 @@
 {
   "name": "ky-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "keep-yukap org cli tools",
   "private": true,
   "scripts": {
