@@ -1,5 +1,10 @@
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/keep-yukap/ky-cli/compare/v0.1.1...v0.1.2) (2018-09-08)
+
+
+
 <a name="0.1.1"></a>
-## 0.1.1 (2018-09-08)
+## [0.1.1](https://github.com/keep-yukap/ky-cli/compare/91c1013...v0.1.1) (2018-09-08)
 
 
 ### Features
