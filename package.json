@@ -31,7 +31,10 @@
   "lint-staged": {
     "linters": {
       "*.js": ["eslint --fix", "git add"]
-    }
+    },
+    "ignore": [
+      "./dist/*.js"
+    ]
   },
   "dependencies": {
     "babel-eslint": "^9.0.0",
