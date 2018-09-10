@@ -23,6 +23,11 @@
     "url": "https://github.com/keep-yukap/ky-cli/issues"
   },
   "homepage": "https://github.com/keep-yukap/ky-cli#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint src/"
+    }
+  },
   "dependencies": {
     "babel-eslint": "^9.0.0",
     "eslint": "^5.5.0",
@@ -35,7 +40,8 @@
   "devDependencies": {
     "commitizen": "^2.10.1",
     "conventional-changelog-cli": "^2.0.5",
-    "cz-conventional-changelog": "^2.1.0"
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^1.0.0-rc.13"
   },
   "config": {
     "commitizen": {
