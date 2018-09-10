@@ -10,6 +10,13 @@
     "version": "npm run changelog && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
   },
+  "bin": {
+    "ky": "bin/ky-cli.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keep-yukap/ky-cli.git"
@@ -30,7 +37,10 @@
   },
   "lint-staged": {
     "linters": {
-      "*.js": ["eslint --fix", "git add"]
+      "*.js": [
+        "eslint --fix",
+        "git add"
+      ]
     },
     "ignore": [
       "./dist/*.js"
@@ -38,6 +48,7 @@
   },
   "dependencies": {
     "babel-eslint": "^9.0.0",
+    "commander": "^2.18.0",
     "eslint": "^5.5.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
