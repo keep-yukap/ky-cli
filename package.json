@@ -29,7 +29,9 @@
     }
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "linters": {
+      "*.js": ["eslint --fix", "git add"]
+    }
   },
   "dependencies": {
     "babel-eslint": "^9.0.0",
