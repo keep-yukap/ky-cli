@@ -1,4 +1,5 @@
-import eslint from 'eslint';
-import webpack from 'webpack';
+const jest = require('./lib/jest');
 
-console.log(eslint, webpack);
+module.exports = {
+  jest,
+};

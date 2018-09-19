@@ -1,5 +1,5 @@
 {
-  "name": "ky-cli",
+  "name": "@keepyukap/ky-cli",
   "version": "0.1.2",
   "description": "keep-yukap org cli tools",
   "private": true,
@@ -47,11 +47,17 @@
     ]
   },
   "dependencies": {
+    "babel-core": "^6.10.4",
     "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "commander": "^2.18.0",
     "eslint": "^5.5.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
     "lodash": "^4.17.10",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
