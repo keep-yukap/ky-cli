@@ -1,3 +1,13 @@
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/keep-yukap/ky-cli/compare/v0.1.3...v0.1.4) (2018-09-19)
+
+
+### Features
+
+* add package version update control ([14bb11b](https://github.com/keep-yukap/ky-cli/commit/14bb11b))
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/keep-yukap/ky-cli/compare/v0.1.2...v0.1.3) (2018-09-19)
 
