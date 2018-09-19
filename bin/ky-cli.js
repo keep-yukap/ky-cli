@@ -5,7 +5,9 @@ const updater = require('pkg-updater');
 const pkg = require('../package.json');
 const tools = require('../src');
 
-updater({ pkg }).then(() => {
+updater({
+  pkg,
+}).then(() => {
   program
     .version(pkg.version)
     .usage('<command> <options>');
