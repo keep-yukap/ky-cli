@@ -1,6 +1,6 @@
 {
   "name": "@keepyukap/ky-cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "keep-yukap org cli tools",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

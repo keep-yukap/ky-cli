@@ -1,3 +1,13 @@
+<a name="0.1.6"></a>
+## [0.1.6](https://github.com/keep-yukap/ky-cli/compare/v0.1.5...v0.1.6) (2018-09-20)
+
+
+### Bug Fixes
+
+* fixed jest fail issue for dependencies weird case ([9da6fa7](https://github.com/keep-yukap/ky-cli/commit/9da6fa7))
+
+
+
 <a name="0.1.5"></a>
 ## [0.1.5](https://github.com/keep-yukap/ky-cli/compare/v0.1.4...v0.1.5) (2018-09-19)
 
