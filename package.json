@@ -3,7 +3,7 @@
   "version": "0.1.8",
   "description": "keep-yukap org cli tools",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "commit": "git-cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "version": "npm run changelog && git add CHANGELOG.md",
